@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["standard", "eslint:recommended", "eslint-config-prettier"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-unneeded-ternary": "off",
+        "camelcase": "off",
+        "react/prop-types": "off",
+        "no-undef": "off"
+    }
+}
